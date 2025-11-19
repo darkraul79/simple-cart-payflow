@@ -2,6 +2,11 @@
 
 All notable changes to `simple-cart-payflow` will be documented in this file.
 
+## v0.1.1 - 2025-01-10
+
+### Test to update Packagist
+
+
 ## v0.1.0 - 2025-01-19
 
 ### Added
