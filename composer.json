@@ -1,67 +1,66 @@
 {
-}
-    "prefer-stable": true
-    },
-        "sort-packages": true
-    "config": {
-    },
-        "format": "vendor/bin/pint"
-        "test": "vendor/bin/pest",
-    "scripts": {
-    },
-        }
-            }
-                "Gateway": "Darkraul79\\Payflow\\Facades\\Gateway"
-                "Cart": "Darkraul79\\Cartify\\Facades\\Cart",
-            "aliases": {
-            ],
-                "Darkraul79\\SimpleCartPayFlow\\SimpleCartPayFlowServiceProvider"
-            "providers": [
-        "laravel": {
-    "extra": {
-    },
-        }
-            "Darkraul79\\SimpleCartPayFlow\\Tests\\": "tests/"
-        "psr-4": {
-    "autoload-dev": {
-    },
-        }
-            "Darkraul79\\SimpleCartPayFlow\\": "src/"
-        "psr-4": {
-    "autoload": {
-    },
-        "laravel/pint": "^1.0"
-        "pestphp/pest-plugin-laravel": "^4.0",
-        "pestphp/pest": "^4.0",
-        "orchestra/testbench": "^10.0",
-    "require-dev": {
-    },
-        "darkraul79/payflow": "^0.1"
-        "darkraul79/cartify": "^0.1",
-        "php": "^8.2 || ^8.3",
-    "require": {
-    },
-        "source": "https://github.com/darkraul79/simple-cart-payflow"
-        "issues": "https://github.com/darkraul79/simple-cart-payflow/issues",
-    "support": {
-    ],
-        }
-            "email": "darkraul79@gmail.com"
-            "name": "Raul Sebastian",
-        {
-    "authors": [
-    ],
-        "checkout"
-        "redsys",
-        "gateway",
-        "shopping-cart",
-        "e-commerce",
-        "payment",
-        "cart",
-        "laravel",
-    "keywords": [
-    "license": "MIT",
-    "type": "library",
-    "description": "Unified installation of Cartify + Payflow for Laravel e-commerce projects",
     "name": "darkraul79/simple-cart-payflow",
-
+    "description": "Unified installation of Cartify + Payflow for Laravel e-commerce projects",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "cart",
+        "payment",
+        "e-commerce",
+        "shopping-cart",
+        "gateway",
+        "redsys",
+        "checkout"
+    ],
+    "authors": [
+        {
+            "name": "Raul Sebastian",
+            "email": "darkraul79@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/darkraul79/simple-cart-payflow/issues",
+        "source": "https://github.com/darkraul79/simple-cart-payflow"
+    },
+    "require": {
+        "php": "^8.2 || ^8.3",
+        "darkraul79/cartify": "^0.1",
+        "darkraul79/payflow": "^0.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0",
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkraul79\\SimpleCartPayFlow\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darkraul79\\SimpleCartPayFlow\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Darkraul79\\SimpleCartPayFlow\\SimpleCartPayFlowServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "Darkraul79\\Cartify\\Facades\\Cart",
+                "Gateway": "Darkraul79\\Payflow\\Facades\\Gateway"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
